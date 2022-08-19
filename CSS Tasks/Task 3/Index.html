@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3</title>
+  <!-- Used stretch in the child to make all 
+columns equal-->
+  <style>
+    header {
+      margin-bottom: 40px;
+    }
+
+    header h1,
+    h4 {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    .container {
+      display: flex;
+      align-items: start;
+      gap: 40px;
+      max-width: 800px;
+
+
+
+
+    }
+
+    .col {
+      background-color: aqua;
+      min-width: 200px;
+      padding: 20px;
+      line-height: 1.5;
+      align-self: stretch;
+      justify-content: stretch;
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Make Equal Height</h1>
+    <h4>All columns should grow to match tallest content.</h4>
+  </header>
+
+  <section class='container'>
+    <div class='col'>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div class='col'>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, illo. Itaque, dolore cupiditate.
+      Cumque repellat ipsum maiores quidem cupiditate, rem eligendi sed soluta. Suscipit, quos esse? Autem deserunt
+      dolorum eum.
+    </div>
+    <div class='col'>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, illo. Itaque, dolore cupiditate.
+      Cumque repellat ipsum maiores quidem cupiditate, rem eligendi sed soluta. Suscipit, quos esse? Autem deserunt
+      dolorum eum.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, illo. Itaque, dolore cupiditate.
+      Cumque repellat ipsum maiores quidem cupiditate, rem eligendi sed soluta. Suscipit, quos esse? Autem deserunt
+      dolorum eum.
+    </div>
+  </section>
+</body>
+
+</html>
